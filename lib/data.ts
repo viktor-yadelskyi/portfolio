@@ -62,16 +62,16 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: 'Better Ukraine',
-		description: 'Placeholder',
-		tags: ['React', 'Redux', 'SCSS', 'Redux Saga', 'MUI'],
-		imageUrl: betterUkraineImg,
-	},
-	{
 		title: 'Placeholder',
 		description: 'Placeholder',
 		tags: ['React', 'TypeScript', 'Redux'],
 		imageUrl: rmtdevImg,
+	},
+	{
+		title: 'Better Ukraine',
+		description: 'Placeholder',
+		tags: ['React', 'Redux', 'SCSS', 'TypeScript', 'Redux Saga', 'MUI'],
+		imageUrl: betterUkraineImg,
 	},
 	{
 		title: 'Placeholder',

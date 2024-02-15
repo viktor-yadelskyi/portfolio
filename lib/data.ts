@@ -6,7 +6,6 @@ import rmtdevImg from '@/public/rmtdev.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
 import betterUkraineImg from '@/public/betterurkaine.png';
 
-
 export const links = [
 	{
 		name: 'Home',
@@ -63,7 +62,8 @@ export const experiencesData = [
 export const projectsData = [
 	{
 		title: 'Placeholder',
-		description: 'Placeholder',
+		description:
+			'I took part in a short-term commercial project in the e-commerce domain. My responsibilities included creating markup and writing front-end logic by using React.',
 		tags: ['React', 'TypeScript', 'Redux'],
 		imageUrl: rmtdevImg,
 	},

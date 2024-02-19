@@ -11,10 +11,12 @@ import { useActiveSectionContext } from '@/context/active-section-context';
 type SectionName = (typeof links)[number]['name'];
 
 export default function Header() {
-	const { activeSection, setActiveSection } = useActiveSectionContext();
+	const { activeSection, setActiveSection, setTimeOfLastClick } =
+		useActiveSectionContext();
 
 	const setActiveHandler = (name: SectionName) => {
 		setActiveSection(name);
+		setTimeOfLastClick(Date.now);
 	};
 
 	return (

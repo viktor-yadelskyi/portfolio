@@ -69,13 +69,13 @@ export const projectsData = [
 	},
 	{
 		title: 'Better Ukraine',
-		description: 'Placeholder',
+		description: 'Placeholder2',
 		tags: ['React', 'Redux', 'SCSS', 'TypeScript', 'Redux Saga', 'MUI'],
 		imageUrl: betterUkraineImg,
 	},
 	{
-		title: 'Placeholder',
-		description: 'Placeholder',
+		title: 'Placeholder3',
+		description: 'Placeholder3',
 		tags: ['React', 'TypeScript', 'Redux'],
 		imageUrl: wordanalyticsImg,
 	},

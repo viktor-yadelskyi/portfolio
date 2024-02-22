@@ -1,8 +1,7 @@
 'use client';
 
-import React from 'react';
-import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { BsArrowRight } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';

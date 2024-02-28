@@ -35,23 +35,23 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'Placeholder',
-		location: 'Placeholder',
+		title: 'Placeholder School',
+		location: 'Placeholder school',
 		description: 'Placeholder smt about school',
 		icon: React.createElement(LuGraduationCap),
 		date: '2019',
 	},
 	{
-		title: 'Placeholder',
-		location: 'Placeholder',
-		description: 'Placeholder',
+		title: 'Placeholder jobOne',
+		location: 'Placeholder jobOne',
+		description: 'Placeholder jobOne',
 		icon: React.createElement(CgWorkAlt),
 		date: '2019 - 2021',
 	},
 	{
-		title: 'Placeholder',
-		location: 'Placeholder',
-		description: 'Placeholder',
+		title: 'Placeholder second job',
+		location: 'Placeholder second job',
+		description: 'Placeholder second job',
 		icon: React.createElement(FaReact),
 		date: '2021 - present',
 	},

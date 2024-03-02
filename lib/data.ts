@@ -35,25 +35,26 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'Placeholder School',
-		location: 'Placeholder school',
-		description: 'Placeholder smt about school',
+		title: "Ternopil State Ivan Pul'uj Technical University",
+		location: 'Ternopil',
+		description: "Graduated with Master's degree in Computer Science",
 		icon: React.createElement(LuGraduationCap),
 		date: '2019',
 	},
 	{
 		title: 'Placeholder jobOne',
-		location: 'Placeholder jobOne',
-		description: 'Placeholder jobOne',
+		location: 'Freelance',
+		description: 'Created first commertial project',
 		icon: React.createElement(CgWorkAlt),
-		date: '2019 - 2021',
+		date: 'Jul 2021 - Oct 2021',
 	},
 	{
-		title: 'Placeholder second job',
-		location: 'Placeholder second job',
-		description: 'Placeholder second job',
+		title: 'Student && trainee Software Engineer',
+		location: 'EPAM Systems',
+		description:
+			'Successfully entered and completed the laboratory and took part in the first full-fledged large project',
 		icon: React.createElement(FaReact),
-		date: '2021 - present',
+		date: '2022 - present',
 	},
 ] as const;
 

@@ -34,12 +34,12 @@ export default function Contact() {
 
 			<form className="flex flex-col mt-10">
 				<input
-					className="h-14 rounded-lg borderBlack p-4 outline-none"
+					className="h-14 rounded-lg borderBlack p-4 focus:outline-gray-900"
 					type="email"
 					placeholder="Your email"
 				/>
 				<textarea
-					className="h-52 my-3 rounded-lg borderBlack p-4 outline-none"
+					className="h-52 my-3 rounded-lg borderBlack p-4 focus:outline-gray-900"
 					placeholder="Your message"
 				/>
 				<button

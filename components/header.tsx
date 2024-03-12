@@ -1,14 +1,11 @@
 'use client';
 
 import Link from 'next/link';
+import clsx from 'clsx';
 import { motion } from 'framer-motion';
 import { links } from '@/lib/data';
-import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
-
-// TODO: create type file
-
-type SectionName = (typeof links)[number]['name'];
+import type { SectionName } from '@/lib/types';
 
 export default function Header() {
 	const { activeSection, setActiveSection, setTimeOfLastClick } =

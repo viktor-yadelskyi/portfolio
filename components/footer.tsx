@@ -8,8 +8,7 @@ export default function Footer() {
 			</small>
 			<p className="text-xs">
 				<span className="font-semibold">About this website:</span>build with
-				React & Next.js, TypeScript, Tailwind CSS, Framer Motion, github pages
-				hosting.
+				React & Next.js, TypeScript, Tailwind CSS, Framer Motion.
 			</p>
 		</footer>
 	);

@@ -9,9 +9,15 @@ import SubmitBtn from './submit-btn';
 export default function Contact() {
 	const { ref } = useSectionInView('Contact');
 
-
 	const sendFormDataHandler = async (formData: FormData) => {
-		await sendEmail(formData);
+		const { error } = await sendEmail(formData);
+
+		if (error) {
+			alert(error);
+			return;
+		}
+
+		alert('Email sent successfully!');
 	};
 
 	return (

@@ -42,23 +42,23 @@ export default function Intro() {
 			>
 				<Link
 					href="#contact"
-					className="group flex items-center bg-gray-900 text-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+					className="group flex items-center bg-gray-900 text-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-white/20"
 				>
 					Contact me here{' '}
 					<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
 				</Link>
 
 				<a
-					className="group flex items-center bg-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
+					className="group flex items-center bg-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
 					href="/CV.pdf"
 					download
 				>
 					Dowholand CV{' '}
-					<HiDownload className="opacity-60 group-hover:translate-y-1  transition" />
+					<HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
 				</a>
 
 				<a
-					className="flex items-center bg-white p-4 gap-2 text-gray-700 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+					className="flex items-center bg-white p-4 gap-2 text-gray-700 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
 					href="https://www.linkedin.com/in/viktor-yadelskyi/"
 					target="_blank"
 				>
@@ -66,7 +66,7 @@ export default function Intro() {
 				</a>
 
 				<a
-					className="flex items-center bg-white p-4 gap-2 text-gray-700  text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+					className="flex items-center bg-white p-4 gap-2 text-gray-700  text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
 					href="https://github.com/viktor-yadelskyi"
 					target="_blank"
 				>

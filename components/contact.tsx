@@ -37,7 +37,7 @@ export default function Contact() {
 		>
 			<SectionHeading>Contact me</SectionHeading>
 
-			<p className="text-gray-700 -mt-6">
+			<p className="text-gray-700 -mt-6 dark:text-white/80">
 				Please contact me directly at{' '}
 				<a className="underline" href="mailto:yadelskyiviktor@gmail.com">
 					yadelskyiviktor@gmail.com
@@ -45,9 +45,12 @@ export default function Contact() {
 				or trough this form.
 			</p>
 
-			<form className="flex flex-col mt-10" action={sendFormDataHandler}>
+			<form
+				className="flex flex-col mt-10 dark:text-black/80"
+				action={sendFormDataHandler}
+			>
 				<input
-					className="h-14 rounded-lg borderBlack p-4 focus:outline-gray-900"
+					className="h-14 rounded-lg borderBlack p-4 focus:outline-gray-900 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none transition-all "
 					name="senderEmail"
 					type="email"
 					placeholder="Your email"
@@ -55,7 +58,7 @@ export default function Contact() {
 					required
 				/>
 				<textarea
-					className="h-52 my-3 rounded-lg borderBlack p-4 focus:outline-gray-900"
+					className="h-52 my-3 rounded-lg borderBlack p-4 focus:outline-gray-900 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none transition-all"
 					name="senderMessage"
 					placeholder="Your message (max length 500)"
 					maxLength={500}

@@ -37,7 +37,7 @@ export default function Header() {
 								className={clsx(
 									'flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300',
 									{
-										'text-gray-950 dark:text-gray-200':
+										'text-gray-950 dark:text-gray-100':
 											activeSection === link.name,
 									}
 								)}
@@ -54,7 +54,7 @@ export default function Header() {
 											stiffness: 380,
 											damping: 30,
 										}}
-										className="absolute bg-gray-100 rounded-full inset-0 -z-10 dark:bg-gray-800 "
+										className="absolute bg-gray-100 rounded-full inset-0 -z-10 dark:bg-gray-800"
 									></motion.span>
 								)}
 							</Link>

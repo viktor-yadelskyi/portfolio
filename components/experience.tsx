@@ -17,11 +17,7 @@ export default function Experience() {
 	const { theme } = useTheme();
 
 	return (
-		<section
-			ref={ref}
-			id="experience"
-			className="scroll-mt-28 mb-28 sm:mb-40 overflow-x:hidden"
-		>
+		<section ref={ref} id="experience" className="w-full scroll-mt-28 mb-28 sm:mb-40">
 			<SectionHeading>My Experience</SectionHeading>
 
 			<VerticalTimeline animate={true} lineColor="">

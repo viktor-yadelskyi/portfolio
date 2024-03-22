@@ -50,6 +50,7 @@ export default function ThemeContextProvider({
 			setTheme('dark');
 
 			window.localStorage.setItem('theme', 'dark');
+			document.documentElement.classList.add('dark');
 			return;
 		}
 

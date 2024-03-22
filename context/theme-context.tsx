@@ -51,13 +51,6 @@ export default function ThemeContextProvider({
 			window.localStorage.setItem('theme', 'dark');
 			return;
 		}
-
-		if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-			setTheme('light');
-
-			document.documentElement.classList.remove('dark');
-			window.localStorage.setItem('theme', 'light');
-		}
 	}, []);
 
 	return (

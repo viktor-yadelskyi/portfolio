@@ -16,7 +16,7 @@ const ThemeContext = createContext<ThemeContextType | null>(null);
 export default function ThemeContextProvider({
 	children,
 }: ThemeContextProviderProps) {
-	const [theme, setTheme] = useState<Theme>('light');
+	const [theme, setTheme] = useState<Theme>();
 
 	const toggleTheme = () => {
 		if (theme === 'light') {
@@ -51,10 +51,17 @@ export default function ThemeContextProvider({
 			window.localStorage.setItem('theme', 'dark');
 			return;
 		}
+
+		if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+			setTheme('light');
+
+			window.localStorage.setItem('theme', 'light');
+			return;
+		}
 	}, []);
 
 	return (
-		<ThemeContext.Provider value={{ theme, toggleTheme }}>
+		<ThemeContext.Provider value={{ theme: 'light', toggleTheme }}>
 			{children}
 		</ThemeContext.Provider>
 	);

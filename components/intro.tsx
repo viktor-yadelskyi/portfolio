@@ -50,7 +50,7 @@ export default function Intro() {
 
 				<a
 					className="group flex items-center bg-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-					href="/CV.pdf"
+					href="/Viktor_Yadelskyi.pdf"
 					download
 				>
 					Download CV{' '}
